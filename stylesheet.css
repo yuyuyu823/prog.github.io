@@ -1,0 +1,36 @@
+li{
+  list-style: none;
+}
+
+/*header*/
+header{
+height: 65px;
+width: 100%;
+background-color: rgba(34,49,52,0.9);
+color: white;
+}
+
+.header-logo{
+  width: 200px;
+  margin-top: 20px;
+  padding: 0 20px
+}
+
+.header-left{
+  float: left;
+  font-size: 20px;
+}
+
+.header-right{
+  float: right;
+
+}
+
+.header-right a{
+  line-height: 65px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 2s;
+}
